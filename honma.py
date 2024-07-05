@@ -176,7 +176,6 @@ def main() -> None:
     """Start the bot."""
     # Create the Application and pass it your bot's token.
     application = Application.builder().token("").build()
-    # application = Application.builder().token("7071098688:AAG7IRyltKLORSr85UYixRpBKDuxKPf37NY").build()
 
     # On different commands - answer in Telegram
     application.add_handler(CommandHandler("1", number_command))
